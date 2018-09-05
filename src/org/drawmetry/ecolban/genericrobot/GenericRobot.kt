@@ -4,13 +4,13 @@ import org.drawmetry.ecolban.genericrobot.commands.*
 import org.jointheleague.graphical.robot.Robot
 import org.jointheleague.graphical.robot.RobotInterface
 
-class GenericRobot<T : RobotCommand>(private val robby: Robot) : RobotInterface by robby {
+class GenericRobot<in T : RobotCommand>(private val robby: Robot) : RobotInterface by robby {
 
     private fun execute(command: T) {
         command.execute(robby)
     }
 
-    fun execute(commands: Array<T>) {
+    fun execute(commands: Array<out T>) {
         for (command in commands) {
             execute(command)
         }

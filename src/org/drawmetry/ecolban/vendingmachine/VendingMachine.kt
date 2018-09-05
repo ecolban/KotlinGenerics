@@ -1,8 +1,8 @@
 package org.drawmetry.ecolban.vendingmachine
 
-class VendingMachine<T : PaymentMethod, U : Merchandise>(private val merchandises: MutableMap<U, Int>) {
+class VendingMachine<in T : PaymentMethod, in U : Merchandise>(private val merchandises: MutableMap<U, Int>) {
 
-    fun buy(item: U, payMethod: T): U? = merchandises[item]?.let {
+    fun <R : U> buy(item: R, payMethod: T): R? = merchandises[item]?.let {
         payMethod.pay(item.price)
         println("Bought $item for $%.2f".format(item.price / 100.0))
         if (it == 1) {
