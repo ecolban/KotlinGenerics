@@ -1,6 +1,6 @@
-package org.drawmetry.ecolban.genericrobot
+package com.github.ecolban.kotlingenerics.genericrobot
 
-import org.drawmetry.ecolban.genericrobot.commands.*
+import com.github.ecolban.kotlingenerics.genericrobot.commands.*
 import org.jointheleague.graphical.robot.Robot
 import org.jointheleague.graphical.robot.RobotInterface
 

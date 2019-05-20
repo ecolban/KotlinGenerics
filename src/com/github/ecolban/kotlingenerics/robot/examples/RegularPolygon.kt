@@ -1,4 +1,4 @@
-package org.drawmetry.ecolban.robot.examples
+package com.github.ecolban.kotlingenerics.robot.examples
 
 import org.jointheleague.graphical.robot.Robot
 import java.awt.Color

@@ -1,4 +1,4 @@
-package org.drawmetry.ecolban.type.projections
+package com.github.ecolban.kotlingenerics.type.projections
 
 /**
  * All occurrences of T in Array<T> that are in "in position" are replaced by Int

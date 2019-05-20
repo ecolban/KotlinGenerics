@@ -1,4 +1,4 @@
-package org.drawmetry.ecolban.vendingmachine
+package com.github.ecolban.kotlingenerics.vendingmachine
 
 interface Merchandise {
     val price: Int

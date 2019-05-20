@@ -1,4 +1,4 @@
-package org.drawmetry.ecolban.option
+package com.github.ecolban.kotlingenerics.option
 
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals

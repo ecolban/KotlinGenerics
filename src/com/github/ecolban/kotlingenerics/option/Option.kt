@@ -1,4 +1,4 @@
-package org.drawmetry.ecolban.option
+package com.github.ecolban.kotlingenerics.option
 
 sealed class Option<out T: Any> {
     abstract val value: T

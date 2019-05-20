@@ -1,4 +1,4 @@
-package org.drawmetry.ecolban.genericrobot.commands
+package com.github.ecolban.kotlingenerics.genericrobot.commands
 
 import org.jointheleague.graphical.robot.Robot
 

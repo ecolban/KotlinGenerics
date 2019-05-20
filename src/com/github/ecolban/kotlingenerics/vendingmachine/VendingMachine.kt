@@ -1,4 +1,4 @@
-package org.drawmetry.ecolban.vendingmachine
+package com.github.ecolban.kotlingenerics.vendingmachine
 
 class VendingMachine<in T : PaymentMethod, in U : Merchandise>(private val merchandises: MutableMap<U, Int>) {
 

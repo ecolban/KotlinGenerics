@@ -1,4 +1,4 @@
-package org.drawmetry.ecolban.type.erasure
+package com.github.ecolban.kotlingenerics.type.erasure
 
 inline fun <reified T> checkType(a: Any) {
     when (a) {
